@@ -34,9 +34,9 @@
         <script type="text/javascript">
         function add() {
 
-            var x = parseInt(document.getElementById("t1").value);
-            var y = parseInt(document.getElementById("t2").value);
-            if(isNaN(x)||isNaN(y))
+            var x = parseFloat(document.getElementById("t1").value);
+            var y = parseFloat(document.getElementById("t2").value);
+            if(x== NaN||y==NaN)
             {
             	alert("Must input numbers");
             	//document.getElementById("txtresult").value = "Wrong Input!";
